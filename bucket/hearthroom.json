@@ -1,0 +1,27 @@
+{
+  "version": "0.1.5",
+  "description": "Command-line client for Hearthroom character cards",
+  "homepage": "https://cli.hearthroom.club",
+  "license": "AGPL-3.0-only",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/hearthroom/cli/releases/download/v0.1.5/hearthroom_0.1.5_windows_amd64.zip",
+      "hash": "286d3c8780c52037b0e56db972519c61c04ad6dc472eb54be3293db000ba82f4"
+    },
+    "arm64": {
+      "url": "https://github.com/hearthroom/cli/releases/download/v0.1.5/hearthroom_0.1.5_windows_arm64.zip",
+      "hash": "118dc3a9f228d14ddf00da5f4dcca488392e76e64342e1fe4a279219de094418"
+    }
+  },
+  "bin": "hearthroom.exe",
+  "checkver": {
+    "github": "https://github.com/hearthroom/cli"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": { "url": "https://github.com/hearthroom/cli/releases/download/v$version/hearthroom_$version_windows_amd64.zip" },
+      "arm64": { "url": "https://github.com/hearthroom/cli/releases/download/v$version/hearthroom_$version_windows_arm64.zip" }
+    },
+    "hash": { "url": "https://github.com/hearthroom/cli/releases/download/v$version/checksums.txt" }
+  }
+}
