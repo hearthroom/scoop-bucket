@@ -1,19 +1,19 @@
 {
-    "version": "0.1.10",
+    "version": "0.1.11",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/hearthroom/cli/releases/download/v0.1.10/hearthroom_0.1.10_windows_amd64.zip",
+            "url": "https://github.com/hearthroom/cli/releases/download/v0.1.11/hearthroom_0.1.11_windows_amd64.zip",
             "bin": [
                 "hearthroom.exe"
             ],
-            "hash": "3338aeee25ad27aac81577de0cede9a92c771c904a6a58d082ace10f4da09fb2"
+            "hash": "15b3fc532022386e1d7b71b0ded889c9c5ba8107d8216478318233135950979a"
         },
         "arm64": {
-            "url": "https://github.com/hearthroom/cli/releases/download/v0.1.10/hearthroom_0.1.10_windows_arm64.zip",
+            "url": "https://github.com/hearthroom/cli/releases/download/v0.1.11/hearthroom_0.1.11_windows_arm64.zip",
             "bin": [
                 "hearthroom.exe"
             ],
-            "hash": "a68ad58d80ad8058364039f71c2e68b00bdb51545c5d58100ebd65234053e71c"
+            "hash": "9916ea70cf24333a65a29e7ec36e78d18fb355ba886990d7bbafa28f56c5efb1"
         }
     },
     "homepage": "https://hearthroom.club",
